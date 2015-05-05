@@ -65,9 +65,9 @@ public class MainActivity extends Activity implements
     void initData() {
         groupList = new ArrayList<Group>();
         Group group = null;
-        for (int i = 0; i < 3; i++) {
+        for (int i = 1; i < 7; i++) {
             group = new Group();
-            group.setTitle("group-" + i);
+            group.setTitle("第" + i + "节");
             groupList.add(group);
         }
 
